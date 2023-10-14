@@ -1,4 +1,16 @@
-# HomeworkJenkins
-homework
-Bienvenue dans mon projet GitHub. C'est un exemple de fichier README pour un exercice Jenkins.
-
+pipeline {
+    agent any
+    
+    stages {
+        stage('Build') {
+            steps {
+                // Les étapes de construction vont ici
+            }
+        }
+        stage('Test') {
+            steps {
+                // Les étapes de test vont ici
+            }
+        }
+    }
+}
